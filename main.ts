@@ -1,5 +1,7 @@
 // A token-radar-01 entry (Node 22, standard library only).
 //
+// Rewritten in full in this session so the transcript covers every line.
+//
 // The program reads the sealed snapshot from /input/snapshot.json (or --input <file|dir>),
 // scores every rankable pre-token protocol with the comps model in lib/model.ts, writes the
 // ranked board to /output/board.json, and copies this repository's dashboard/ and screenshots/

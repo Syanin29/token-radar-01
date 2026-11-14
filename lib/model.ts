@@ -1,5 +1,8 @@
 // The token radar's model: one sealed snapshot in, one ranked board out.
 //
+// radar-2-comps: implied = TVL x multiple kategori (median FDV/TVL winsorized dari protokol
+// bertoken) x growth x maturity; tanpa hardcoded nama.
+//
 // The board ranks every pre-token protocol the snapshot records, strongest implied value first.
 // A protocol is pre-token when its record carries no token (mcap_usd, gecko_id and symbol all
 // null) AND it is not a wrapped, staked or bridged product of a token that already trades:
